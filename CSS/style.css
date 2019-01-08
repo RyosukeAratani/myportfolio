@@ -1,0 +1,428 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/**************************************
+初期設定
+***************************************/
+.title{
+	font-size:30px;
+}
+li a{
+	font-size: 25px;
+}
+.contents{
+	font-size: 20px;
+}
+footer small{
+	font-size:  12px;
+}
+.portfolio{
+	background: white;
+}
+
+
+/**************************************
+レイアウト設定
+***************************************/
+
+#background {
+  position: absolute;
+  top: 500px;
+  left: 0;
+  z-index: 0;
+}
+
+.portfolio{
+	width:  1100px;
+	height: 2300px;
+	/*outline: 2px solid black;*/
+	padding-left: 100px;
+	margin: 20px auto;
+	font-family: "Comic Sans MS", "cursive";
+}
+
+.header{
+  position: relative;
+  z-index: 99999;
+}
+.wrapper{
+  position: relative;
+  z-index: 99999;
+}
+#particles{
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  width: 1100px;
+  height: 2300px;
+}
+
+/**************************************
+header
+***************************************/
+.header{
+	float: left;
+	width: 180px;
+	/*outline: 1px solid black;*/
+	position: fixed;
+}
+#logo{
+	height: 120px;
+	width: 120px;
+    /*outline: 1px solid black;*/
+	margin:20px auto 160px;
+	position: relative;
+	left: -50px;
+}
+
+nav ul{
+	/*outline: 1px solid black;*/
+}
+
+ul li{
+	height: 70px;
+	width: 180px;
+	position: relative;
+	top: -100px;
+	margin-left: -100px;
+	/*outline: 1px solid black;*/
+	line-height: 70px;
+}
+
+ul li a{
+	color: black;
+	opacity:0.5;
+}
+
+.blog_link{
+	margin-top: 50px;
+	width: 200px;
+	/*outline: 1px solid black;*/
+}
+
+.per_blog{
+	/*outline: 1px solid black;*/
+	width: 200px;
+}
+
+#twitter{
+	margin: 60px auto 20px;
+	text-align: center;
+	width: 180px;
+	height: 140px;
+	line-height: 140px;
+	/*outline: 1px solid black;*/
+}
+
+#turu{
+	/*outline: 1px solid black;*/
+	margin:20px auto 160px;
+	position: absolute;
+	left: 850px;
+	top: -300px;
+
+}
+
+/**************************************
+メイン領域
+***************************************/
+.wrapper{
+	float: right;
+	width: 920px;
+    /*outline: 1px solid black;*/
+}
+#about{
+	/*outline: 1px solid black;*/
+	height: 660px;
+	width: 800px;
+}
+.title{
+	/*outline: 1px solid black;*/
+	margin: 20px;
+}
+.content{
+	/*outline: 1px solid black;*/
+	margin: 20px;
+	height: 270px;
+}
+.content_1{
+	padding-top: 0px;
+	padding-bottom: opx;
+	text-align: left;
+}
+
+.about_content{
+	height: 240px;
+	width: 760px;
+	margin: 20px;
+	/*outline: 1px solid black;*/
+}
+
+/**************************************
+Works
+***************************************/
+
+
+#works{
+	/*outline: 1px solid black;*/
+	height: 900px;
+	width: 800px;
+}
+
+.slider_title{
+	/*outline: 1px solid black;*/
+	width: 400px;
+	height: 40px;
+	text-align: center;
+	font-size: 30px;
+	margin-left: 50px;
+	margin-bottom: 30px;
+}
+.title_python{
+	float: left;
+}
+.title_sub{
+	float: left;
+	font-size: 2px;
+	margin-top: 15px;
+	margin-left: 30px
+}
+
+.slider_title2{
+	/*outline: 1px solid black;*/
+	clear: both;
+	width: 400px;
+	height: 40px;
+	margin-top: 240px;
+	text-align: center;
+	font-size: 30px;
+	position: relative;
+	top: -250px;
+	margin-left: 50px;
+	margin-bottom: 30px;
+}
+
+.Masato{
+	position: relative;
+	clear: both;
+	/*outline: 1px solid black;*/
+	top: -250px;
+}
+
+/*
+.marker{
+
+	padding: 0 -2px;
+	background: linear-gradient(transparent 60%,#00BFFF 60%);
+}*/
+
+
+.python{
+	clear: both;
+	float: left;
+	/*background: red;*/
+	/*outline: 1px solid black;*/
+	height: 250px;
+	width: 800px;
+}
+
+.web{
+	clear: both;
+	margin-top: 40px;
+	/*background: red;*/
+	/*outline: 1px solid black;*/
+	height: 250px;
+	width: 800px;
+}
+
+.another{
+	float: left;
+	margin-left: 20px;
+	/*background: red;*/
+	/*outline: 1px solid black;*/
+	height: 250px;
+	width: 250px;
+}
+
+.slide{
+	/*outline: 1px solid black;*/
+	background-color: rgba(10,10,10,0.01);
+	border-radius: 150px;
+	box-shadow: 1px 3px 3px;
+	width: 300px;
+  height: 300px;
+	float: left;
+	margin: 20px;
+	margin-left: 100px;
+}
+
+.slide_left{
+  /*outline: 1px solid black;*/
+	margin-left: 100px;
+	margin-top: 15px;
+	width: 100px;
+	height: 100px;
+}
+
+.slide_right{
+
+	font-size: 14px;
+	width: 300px;
+	height: 100px;
+	text-align: left;
+	/*background: yellow;*/
+}
+
+.works_title{
+	/*outline: 1px solid black;*/
+  margin-left: 5px;
+  width: 275px;
+	font-size: 16px;
+}
+
+.language{
+	margin-top: px;
+	margin-left: -40px;
+	font-size: 10px;
+	text-align: center;
+	font-weight: bold;
+	/*outline: 1px solid black;*/
+}
+
+.works_content{
+	/*outline: 1px solid black;*/
+	width: 250px;
+	margin-left: 20px;
+	text-align: left;
+}
+
+.day{
+	text-align: center;
+	margin-right: 30px;
+	margin-bottom: 0;
+	font-size: 10px;
+	font-weight: bold;
+
+}
+
+.slide:hover{
+	background: #D7EEFF;
+	background-color: rgba(0,0,0,0.05);
+
+}
+
+a{
+	outline: none;
+}
+
+div a{
+	color: black;
+	opacity:0.5;
+	margin-left: 100px;
+	/*outline: 1px solid black;*/
+	position: relative;
+	top: 5px;
+
+}
+
+div a:hover{
+	color:black;
+	opacity: 1;
+}
+
+.slick-prev:before,
+.slick-next:before{
+	color:black;
+}
+
+
+
+/**************************************
+profile
+***************************************/
+
+#profile{
+	/*outline: 1px solid black;*/
+	height: 640px;
+	width: 800px;
+	clear: both;
+}
+
+#profile .content{
+	/*outline: 1px solid black;*/
+	margin: 20px;
+	height: 500px
+}
+
+#left{
+	float: left;
+	/*outline: 1px solid black;*/
+	width: 370px;
+	height: 500px;
+}
+#profile .image_zone{
+	width: 370px;
+	height: 240px;
+	text-align: center;
+	/*outline: 1px solid black;*/
+}
+#profile .text_zone{
+	width: 370px;
+	height: 260px;
+	/*outline: 1px solid black;*/
+}
+p{
+	text-indent: 20pt;
+	line-height: 20px;
+}
+.text_content{
+	text-indent:40px;
+}
+.benron{
+	text-align: left;
+  color: red;
+	margin-left: -100px;
+
+}
+.text_name{
+	text-align: center;
+	font-size: 150%;
+	padding-top: 10px;
+}
+
+#right{
+	float: left;
+	/*outline: 1px solid black;*/
+	width: 370px;
+	height: 500px;
+}
+.icon{
+	text-align: center;
+	outline: 1px solid black;
+	background: red;
+}
+
+
+#contact{
+	/*outline: 1px solid black;*/
+	height: 540px;
+	width: 800px;
+}
+
+.mail_box{
+	/*outline: 1px solid black;*/
+	margin: 20px;
+	height: 400px
+}
+/**************************************
+footer
+***************************************/
+.footer{
+	clear: both;
+	text-align: right;
+	padding-bottom: 30px;
+	/*outline: 1px solid black;*/
+}

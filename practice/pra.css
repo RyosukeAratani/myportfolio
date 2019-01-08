@@ -1,0 +1,5 @@
+body{
+  background: green;
+  outline: 5px solid black;
+  background-size: contain;
+}

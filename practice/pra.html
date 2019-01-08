@@ -1,0 +1,40 @@
+<html>
+<head>
+	<link rel="stylesheet" href="pra.css">
+<title>画像を指定座標まで移動させる</title>
+<script language="JavaScript"><!--
+x1 = 100;
+y1 = 100;
+x2 = 500;
+y2 = 500;
+step = 5;
+dx = x2 - x1;
+dy = y2 - y1;
+if (dx > dy) a = dy / dx; else a = dx / dy;
+x = x1;
+y = y1;
+function moveImg()
+{
+	flag = true;
+	if (dx > dy)
+	{
+		x = x + step;
+		y = a * x;
+		if (x > x2) flag = false;
+	}else{
+		y = y + step;
+		x = a * y;
+		if (y > y2) flag = false;
+	}
+	document.myIMG.style.left = x;
+	document.myIMG.style.top  = y;
+	if (flag) setTimeout("moveImg()",100);
+}
+// --></script>
+</head>
+<body >
+<img src="blue.jpeg" name="myIMG" style="position:absolute;top:100px;left:100px;"><br>
+<img src="red.jpeg" style="position:absolute;top:500px;left:500px;"><br>
+<a href="javaScript:moveImg()">移動</a>
+</body>
+</html>
